@@ -1,0 +1,130 @@
+#container {
+    background-image: url(leyre-unsplash.jpg) ;
+}
+
+#header {
+    background-image: url(hellosign.jpg);
+    background-size: contain;
+    color: white;
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    /* buttons seem to ignore justify-content */
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.tab {
+    padding: 20px;
+    border: solid hotpink 3px;
+    border-bottom: none;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: bold;
+}
+
+.tab:hover {
+    cursor: pointer;
+    background-color: cyan;
+    border: solid lightblue;
+    border-bottom: none;
+}
+
+p, h1 {
+    color: white;
+}
+
+#content {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* Tab1 styling */
+#tabContainer {
+    display: grid;
+    width: 75%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* background-color: black; */
+
+    justify-items: center;
+}
+
+#subheader {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.introContain {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 15px;
+
+    align-items: center;
+    column-gap: 25px;
+    row-gap: 50px;
+
+    background-color: black;
+    border-radius: 100px;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+
+    border-style: solid;
+    border-width: 15px;
+    border-right-color: hsl(240, 100%, 22%);
+    border-left-color: hsl(240, 100%, 33%);
+    border-top-color:hsl(240, 100%, 27%);
+    border-bottom-color: hsl(240, 100%, 27%);
+    /* border-style: double; */
+    /* border-left-style: dashed; */
+}
+
+#introContainFirst {
+    padding-right: 40px;
+}
+
+.headerContain, .subheaderContain {
+    background-color: black;
+    border-radius: 100px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    border-style: solid;
+    border-width: 15px;
+    border-color: darkblue;
+
+    border-radius: 100px;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h2 > h5 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+#footer a:visited {
+    color: hotpink;
+}
+
+#footer a:link {
+    color: lightgray;
+}
+
+/* Menu Styling */ 
+.subheaderContain {
+    margin-top: 40px;
+}
