@@ -1,5 +1,5 @@
 function tab2Function() {
-    console.log("run tab2 function");
+    // console.log("run tab2 function");
 
     if (currentTab != 0) {
     const parent = document.getElementById("container");

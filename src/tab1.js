@@ -5,7 +5,7 @@ let currentTab = 0;
 tab1Function();
 
 function tab1Function() {
-  console.log("run tab1 function");
+  // console.log("run tab1 function");
 
   if (currentTab != 0) {
     const parent = document.getElementById("container");
