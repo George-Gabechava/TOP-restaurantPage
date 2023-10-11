@@ -1,10 +1,6 @@
 # TOP-restaurantPage
 TOP Restaurant Page
 
-Photo1 
-By Mikita Yo https://unsplash.com/@mikitayo via https://unsplash.com/photos/IO_CWfjXM7U
-
-Photo2
 Photo by <a href="https://unsplash.com/@leyy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Leyre</a> on <a href="https://unsplash.com/photos/71SHXwBLp5w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
 
@@ -18,3 +14,8 @@ Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_s
 Woman with bullet contact
 Photo by Caique Araujo: https://www.pexels.com/photo/tattooed-woman-in-black-spaghetti-strap-top-holding-a-gun-and-bullet-13448794/
 
+Ab-synth
+Photo by CD Projekt S.A. 
+
+UNUSED - Photo
+By Mikita Yo https://unsplash.com/@mikitayo via https://unsplash.com/photos/IO_CWfjXM7U
