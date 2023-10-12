@@ -1,6 +1,8 @@
-function tab2Function() {
-    // console.log("run tab2 function");
+export default function tab2Function() {
+    //debugging console.log
+    // console.log("I ran tab2Function");
 
+    //delete current tab if needed
     if (currentTab != 0) {
     const parent = document.getElementById("container");
 
@@ -13,6 +15,7 @@ function tab2Function() {
     parent2.removeChild(child);
     }
 
+    //start creating page
     const content = document.getElementById("content");
 
     const tabContain = document.createElement('div');
@@ -165,18 +168,6 @@ function tab2Function() {
     leadDesc.innerText = "Please see the vendor on staff selling merchandise for all your mercenary needs.";
     leadHeader.append(leadDesc);
 
-
-
-
-
-
-
-
-
-
-
-
-
     //footer
     const footer = document.createElement('div');
     footer.id = 'footer';
@@ -191,6 +182,7 @@ function tab2Function() {
     title.className = "footerbody";
     footerBody2.innerHTML = "Github " + "<a href=https://github.com/George-Gabechava/TOP-restaurantPage>Source Code</a>";
 
+    //append this file to website
     footer.append(footerBody2);
 
     content.append(tabContain);
