@@ -1,12 +1,14 @@
-//current Tab tracker 
-let currentTab = 0;
+//current Tab tracker variable across all js files
+window['currentTab'] = 0;
 
-//dev - run at start; default page
+//Run at start; default page
 tab1Function();
 
-function tab1Function() {
-  // console.log("run tab1 function");
+export default function tab1Function() {
+  //debugging
+  //console.log("I ran tab1Function");
 
+  //replace current tab
   if (currentTab != 0) {
     const parent = document.getElementById("container");
 
@@ -19,8 +21,10 @@ function tab1Function() {
     parent2.removeChild(child);
   
   }
+  //set global variable to current tab
   currentTab = 1;
 
+  //start creating page
   const content = document.getElementById("content");
 
   //header

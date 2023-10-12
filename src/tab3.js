@@ -1,6 +1,8 @@
-function tab3Function() {
-    // console.log("run tab3 function");
+export default function tab3Function() {
+    //debugging console.log
+    // console.log("I ran tab3Function");
 
+    //delete current tab if needed
     if (currentTab != 0) {
     const parent = document.getElementById("container");
 
@@ -13,6 +15,7 @@ function tab3Function() {
     parent2.removeChild(child);
     }
 
+    //start creating page
     const content = document.getElementById("content");
 
     const tabContain = document.createElement('div');
@@ -54,10 +57,6 @@ function tab3Function() {
     contactHeader.append(contactInfo);
 
 
-
-
-
-
     //footer
     const footer = document.createElement('div');
     footer.id = 'footer';
@@ -72,6 +71,7 @@ function tab3Function() {
     title.className = "footerbody";
     footerBody2.innerHTML = "Github " + "<a href=https://github.com/George-Gabechava/TOP-restaurantPage>Source Code</a>";
 
+    //append this file to website
     footer.append(footerBody2);
 
     content.append(tabContain);
