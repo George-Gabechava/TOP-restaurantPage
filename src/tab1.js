@@ -53,7 +53,6 @@ export default function tab1Function() {
 
   const bullet = document.createElement("img");
   bullet.src = bulletpic;
-  // bullet.setAttribute("src", bulletpic);
   bullet.setAttribute("height", "100px");
   introContain.append(bullet);
 
