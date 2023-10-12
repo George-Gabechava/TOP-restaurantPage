@@ -4,6 +4,8 @@ window['currentTab'] = 0;
 //Run at start; default page
 tab1Function();
 
+import bullet from './bullet.png';
+
 export default function tab1Function() {
   //debugging
   //console.log("I ran tab1Function");
