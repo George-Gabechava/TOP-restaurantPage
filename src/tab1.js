@@ -4,7 +4,7 @@ window['currentTab'] = 0;
 //Run at start; default page
 tab1Function();
 
-import bullet from './bullet.png';
+import bulletpic from './bullet.png';
 
 export default function tab1Function() {
   //debugging
@@ -52,7 +52,7 @@ export default function tab1Function() {
   tabContain.append(introContain);
 
   const bullet = document.createElement("img");
-  bullet.setAttribute("src", "/src/bullet.png");
+  bullet.setAttribute("src", bulletpic);
   bullet.setAttribute("height", "100px");
   introContain.append(bullet);
 
