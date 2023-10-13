@@ -1,3 +1,6 @@
+import absypic from './ab-synth.webp';
+
+
 export default function tab2Function() {
     //debugging console.log
     // console.log("I ran tab2Function");
@@ -49,7 +52,7 @@ export default function tab2Function() {
     tabContain.append(beverage1);
 
     const beverageImg1 = document.createElement("img");
-    beverageImg1.setAttribute("src", "/src/ab-synth.webp");
+    beverageImg1.src = absypic;
     beverageImg1.setAttribute("height", "75px");
     beverage1.append(beverageImg1);
     

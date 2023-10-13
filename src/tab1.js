@@ -72,7 +72,7 @@ export default function tab1Function() {
   tabContain.append(introContain2);
 
   const bullet2 = document.createElement("img");
-  bullet2.setAttribute("src", "/src/bullet.png");
+  bullet2.src = bulletpic;
   bullet2.setAttribute("height", "75px");
   introContain2.append(bullet2);
   
@@ -90,7 +90,7 @@ export default function tab1Function() {
   tabContain.append(introContain3);
 
   const bullet3 = document.createElement("img");
-  bullet3.setAttribute("src", "/src/bullet.png");
+  bullet3.src = bulletpic;
   bullet3.setAttribute("height", "75px");
   introContain3.append(bullet3);
   
