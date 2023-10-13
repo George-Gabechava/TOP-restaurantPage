@@ -1,3 +1,5 @@
+import womanpic from './womanbullet.jpg';
+
 export default function tab3Function() {
     //debugging console.log
     // console.log("I ran tab3Function");
@@ -38,7 +40,7 @@ export default function tab3Function() {
 
     //subheader
     const contactImg = document.createElement("img");
-    contactImg.setAttribute("src", "/src/womanbullet.jpg");
+    contactImg.src = womanpic;
     contactImg.setAttribute("height", "500px");
     tabContain.append(contactImg);
 
