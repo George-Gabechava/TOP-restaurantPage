@@ -1,4 +1,10 @@
 import absypic from './ab-synth.webp';
+import lagerpic from './bro-lager.webp';
+import croissantpic from './croissant.webp';
+import tamalepic from './tamale.webp';
+import bulletpic from './bullet.png';
+
+
 
 
 export default function tab2Function() {
@@ -74,7 +80,7 @@ export default function tab2Function() {
     tabContain.append(beverage2);
 
     const beverageImg2 = document.createElement("img");
-    beverageImg2.setAttribute("src", "/src/bro-lager.webp");
+    beverageImg2.src = lagerpic;
     beverageImg2.setAttribute("height", "75px");
     beverage2.append(beverageImg2);
     
@@ -105,7 +111,7 @@ export default function tab2Function() {
     tabContain.append(food1);
 
     const foodImg1 = document.createElement("img");
-    foodImg1.setAttribute("src", "/src/croissant.webp");
+    foodImg1.src = croissantpic;
     foodImg1.setAttribute("height", "75px");
     food1.append(foodImg1);
     
@@ -127,7 +133,7 @@ export default function tab2Function() {
     tabContain.append(food2);
 
     const foodImg2 = document.createElement("img");
-    foodImg2.setAttribute("src", "/src/tamale.webp");
+    foodImg2.src = tamalepic;
     foodImg2.setAttribute("height", "75px");
     food2.append(foodImg2);
     
@@ -159,7 +165,7 @@ export default function tab2Function() {
     tabContain.append(introContain4);
 
     const bullet4 = document.createElement("img");
-    bullet4.setAttribute("src", "/src/bullet.png");
+    bullet4.src = bulletpic;
     bullet4.setAttribute("height", "75px");
     introContain4.append(bullet4);
     
